@@ -1,0 +1,33 @@
+body {
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #ff0000;
+}
+
+.box {
+  background-color: rgb(60, 0, 255);
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.box img {
+  width: 150px;
+  height: 100px;
+}
+
+.box p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #fff;
+}
